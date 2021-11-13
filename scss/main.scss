@@ -1,11 +1,50 @@
-$color: red;
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Yuji+Syuku&display=swap");
+
+$nav-color: #e9d8a6;
+$section-color: #ee9b00;
+$primary-font: "Yuji Syuku", serif;
+$secondary-font: "Road Rage", cursive;
 
 body {
-  background: url(/assets/img/pexels-lisa-1083822.jpg) no-repeat center;
+  background: url(/assets/img/pexels-lisa-1083822.jpg) no-repeat;
+
+  background-size: cover;
 }
 
 ul {
   li {
     list-style: none;
   }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+
+  h2 {
+    color: $nav-color;
+    font-family: $primary-font;
+    font-size: 3rem;
+  }
+
+  ul {
+    display: flex;
+    color: $nav-color;
+    font-family: $secondary-font;
+
+    li {
+      padding: 3rem;
+      font-size: calc(1.5rem + 0.5vw);
+    }
+  }
+}
+
+section {
+  text-align: center;
+  font-family: $primary-font;
+  color: $section-color;
+  font-size: x-large;
+
 }

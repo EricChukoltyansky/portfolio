@@ -1,5 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Yuji+Syuku&display=swap");
 body {
-  background: url(/assets/img/pexels-lisa-1083822.jpg) no-repeat center; }
+  background: url(/assets/img/pexels-lisa-1083822.jpg) no-repeat;
+  background-size: cover; }
 
 ul li {
   list-style: none; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem; }
+  nav h2 {
+    color: #e9d8a6;
+    font-family: "Yuji Syuku", serif;
+    font-size: 3rem; }
+  nav ul {
+    display: flex;
+    color: #e9d8a6;
+    font-family: "Road Rage", cursive; }
+    nav ul li {
+      padding: 3rem;
+      font-size: calc(1.5rem + 0.5vw); }
+
+section {
+  text-align: center;
+  font-family: "Yuji Syuku", serif;
+  color: #ee9b00;
+  font-size: x-large; }
