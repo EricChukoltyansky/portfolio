@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Yuji+Syuku&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Road+Rage&family=Yuji+Syuku&display=swap");
 body {
   background: url(/assets/img/pexels-lisa-1083822.jpg) no-repeat;
   background-size: cover; }
@@ -17,11 +17,13 @@ nav {
     font-size: 3rem; }
   nav ul {
     display: flex;
-    color: #e9d8a6;
     font-family: "Road Rage", cursive; }
     nav ul li {
       padding: 3rem;
       font-size: calc(1.5rem + 0.5vw); }
+    nav ul a {
+      text-decoration: none;
+      color: #e9d8a6; }
 
 section {
   text-align: center;

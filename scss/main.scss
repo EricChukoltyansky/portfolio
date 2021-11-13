@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Yuji+Syuku&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Road+Rage&family=Yuji+Syuku&display=swap");
 
 $nav-color: #e9d8a6;
 $section-color: #ee9b00;
@@ -31,12 +31,17 @@ nav {
 
   ul {
     display: flex;
-    color: $nav-color;
+    
     font-family: $secondary-font;
 
     li {
       padding: 3rem;
       font-size: calc(1.5rem + 0.5vw);
+      
+    }
+    a {
+      text-decoration: none;
+      color: $nav-color;
     }
   }
 }
