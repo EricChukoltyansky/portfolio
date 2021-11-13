@@ -43,8 +43,15 @@ nav {
 
 section {
   text-align: center;
-  font-family: $primary-font;
   color: $section-color;
-  font-size: x-large;
 
+  h1 {
+    font-family: $primary-font;
+    font-size: 4rem;
+  }
+
+  p {
+    font-family: $secondary-font;
+    font-size: 3rem;
+  }
 }

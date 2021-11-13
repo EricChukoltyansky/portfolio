@@ -25,6 +25,10 @@ nav {
 
 section {
   text-align: center;
-  font-family: "Yuji Syuku", serif;
-  color: #ee9b00;
-  font-size: x-large; }
+  color: #ee9b00; }
+  section h1 {
+    font-family: "Yuji Syuku", serif;
+    font-size: 4rem; }
+  section p {
+    font-family: "Road Rage", cursive;
+    font-size: 3rem; }
