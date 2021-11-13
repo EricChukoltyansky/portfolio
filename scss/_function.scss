@@ -1,0 +1,6 @@
+// transform mixin
+@mixin transform($property) {
+    --webkit-transfrom: $property;
+    --ms-transfrom: $property;
+    transform: $property;
+}

@@ -23,7 +23,11 @@ nav {
       font-size: calc(1.5rem + 0.5vw); }
     nav ul a {
       text-decoration: none;
-      color: #e9d8a6; }
+      color: #e9d8a6;
+      transform: rotate(20deg); }
+      nav ul a:hover {
+        transform: rotate(20deg);
+        color: #ae2012; }
 
 section {
   text-align: center;

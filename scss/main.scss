@@ -4,6 +4,7 @@ $nav-color: #e9d8a6;
 $section-color: #ee9b00;
 $primary-font: "Yuji Syuku", serif;
 $secondary-font: "Road Rage", cursive;
+$hover-color: #ae2012;
 
 body {
   background: url(/assets/img/pexels-lisa-1083822.jpg) no-repeat;
@@ -31,17 +32,21 @@ nav {
 
   ul {
     display: flex;
-    
+
     font-family: $secondary-font;
 
     li {
       padding: 3rem;
       font-size: calc(1.5rem + 0.5vw);
-      
     }
     a {
       text-decoration: none;
       color: $nav-color;
+      transform: rotate(20deg);
+      &:hover {
+        @include transform(rotate(20deg));
+        color: $hover-color;
+      }
     }
   }
 }
